@@ -1,8 +1,8 @@
 
 
 function compchoice() {
-    choices=['rock','paper','scissors'];
-    ran=Math.floor(Math.random()*3);
+    let choices=['rock','paper','scissors'];
+    let ran=Math.floor(Math.random()*3);
     return(choices[ran]);
 }
 
@@ -52,8 +52,8 @@ function decidewinner(computer,player) {
 
 
 function game(){
-   player=playerchoice()
-   computer=compchoice()
+   let player=playerchoice()
+   let computer=compchoice()
 
    console.log('Player chose ', player," computer chose ", computer, " so ",decidewinner(computer,player))
     
