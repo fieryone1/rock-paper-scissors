@@ -1,0 +1,9 @@
+.Choice {
+    display: flex;
+}
+.Choice div {
+    margin: 30px;
+}
+.Choice button {
+    margin:5px;
+}
